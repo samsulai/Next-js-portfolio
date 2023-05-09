@@ -13,9 +13,11 @@ const Archive = () => {
 			<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
 			<ArchiveCard 
              title="Educare Engligh Learning Academy"
-             link="xyz.com"
-             listItem={["ReactJs", "TypeScript", "TailwindCss"]}
              des="Description goes here"
+             listItem={["ReactJs", "TypeScript", "TailwindCss"]}
+             
+             link="xyz.com"
+             
 			/>
 			<ArchiveCard 
              title="Educare Engligh Learning Academy"

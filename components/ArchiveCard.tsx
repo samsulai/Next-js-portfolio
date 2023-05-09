@@ -3,7 +3,7 @@ import {RxOpenInNewWindow} from "react-icons/rx"
 interface Props {
 title : string,
 	listItem: [],
-	link : string,
+	link : string[],
 	des : string
 }
 
