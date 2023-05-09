@@ -2,8 +2,8 @@ import {FaRegFolder} from "react-icons/fa"
 import {RxOpenInNewWindow} from "react-icons/rx"
 interface Props {
 title : string,
-	listItem: [],
-	link : string[],
+	listItem: string[],
+	link : string,
 	des : string
 }
 
