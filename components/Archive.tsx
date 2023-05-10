@@ -12,43 +12,28 @@ const Archive = () => {
 			</div>
 			<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
 			<ArchiveCard 
-             title="Educare Engligh Learning Academy"
-             des="Description goes here"
-             listItem={["ReactJs", "TypeScript", "TailwindCss"]}
+             title="BackEnd API."
+             des="RestAPI for a Social-Media-App"
+             listItem={["NodeJs", "Express", "MongoDB"]}
              
-             link="xyz.com"
+             link="https://github.com/samsulai/Full-Stack-Social-media-app/tree/main/server"
              
 			/>
 			<ArchiveCard 
-             title="Educare Engligh Learning Academy"
-             link="xyz.com"
+             title="ERPAAN"
+             link="https://erpaan.org/"
              listItem={["ReactJs", "TypeScript", "TailwindCss"]}
-            des="Description goes here"
+            des=""
 			/>
 			<ArchiveCard 
-             title="Educare Engligh Learning Academy"
-             link="xyz.com"
-             listItem={["ReactJs", "TypeScript", "TailwindCss"]}
-             des="Description goes here"
+             title="GraphQL API"
+             link="https://github.com/samsulai/Project-Management-System"
+             listItem={["ReactJs", "NodeJS", "GraphQL"]}
+             des=" GraphQL Api for a project management system"
 			/>
-			<ArchiveCard 
-             title="Educare Engligh Learning Academy"
-             link="xyz.com"
-             listItem={["ReactJs", "TypeScript", "TailwindCss"]}
-             des="Description goes here"
-			/>
-			<ArchiveCard 
-             title="Educare Engligh Learning Academy"
-             link="xyz.com"
-             listItem={["ReactJs", "TypeScript", "TailwindCss"]}
-             des="Description goes here"
-			/>
-			<ArchiveCard 
-             title="Educare Engligh Learning Academy"
-             link="xyz.com"
-             listItem={["ReactJs", "TypeScript", "TailwindCss"]}
-             des="Description goes here"
-			/>
+		
+			
+			
 			{
                   showMore && (
 <>
@@ -76,18 +61,7 @@ transition={{delay : 0.1}}
              des="Description goes here"
 			/>
 			</motion.div>
-			<motion.div
-initial={{opacity : 0}}
-whileInView={{opacity : 1}}
-transition={{delay : 0.1}}
->
-<ArchiveCard 
-             title="Educare Engligh Learning Academy"
-             link="xyz.com"
-             listItem={["ReactJs", "TypeScript", "TailwindCss"]}
-             des="Description goes here"
-			/>
-			</motion.div>
+			
 </>
                   	)
 
