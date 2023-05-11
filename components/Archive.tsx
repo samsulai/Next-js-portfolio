@@ -21,10 +21,10 @@ const Archive = () => {
 			/>
 			
 			<ArchiveCard 
-             title="GraphQL API"
-             link="https://github.com/samsulai/Project-Management-System"
+             title="Codenovation"
+             link="https://codenovation.org/"
              listItem={["ReactJs", "NodeJS", "GraphQL"]}
-             des=" GraphQL Api for a project management system"
+             des=" Codenovation"
 			/>
 		
 			
