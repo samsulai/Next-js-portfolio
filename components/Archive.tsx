@@ -12,19 +12,14 @@ const Archive = () => {
 			</div>
 			<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
 			<ArchiveCard 
-             title="BackEnd API."
-             des="RestAPI for a Social-Media-App"
-             listItem={["NodeJs", "Express", "MongoDB"]}
+             title="Cafe One"
+             des="co-working space in Nigeria"
+             listItem={["ReactJS", "StyledComponents"]}
              
-             link="https://github.com/samsulai/Full-Stack-Social-media-app/tree/main/server"
+             link="https://cafeone.ng/"
              
 			/>
-			<ArchiveCard 
-             title="ERPAAN"
-             link="https://erpaan.org/"
-             listItem={["ReactJs", "TypeScript", "TailwindCss"]}
-            des=""
-			/>
+			
 			<ArchiveCard 
              title="GraphQL API"
              link="https://github.com/samsulai/Project-Management-System"
@@ -43,24 +38,13 @@ whileInView={{opacity : 1}}
 transition={{delay : 0.1}}
 >
 <ArchiveCard 
-             title="Educare Engligh Learning Academy"
-             link="xyz.com"
-             listItem={["ReactJs", "TypeScript", "TailwindCss"]}
-             des="Description goes here"
+             title="UllWeb"
+             link="https://ullweb.com/"
+             listItem={["NodeJs", "Express", "MongoDB"]}
+             des="Freelance market place."
 			/>
 			</motion.div>
-			<motion.div
-initial={{opacity : 0}}
-whileInView={{opacity : 1}}
-transition={{delay : 0.1}}
->
-<ArchiveCard 
-             title="Educare Engligh Learning Academy"
-             link="xyz.com"
-             listItem={["ReactJs", "TypeScript", "TailwindCss"]}
-             des="Description goes here"
-			/>
-			</motion.div>
+			
 			
 </>
                   	)
