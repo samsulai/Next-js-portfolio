@@ -4,7 +4,7 @@ import Image from "next/image"
 import Morph from "../public/assets/images/morph.png"
 import Apple from "../public/assets/images/Apple.png"
 import Dashboard from "../public/assets/images/Dashboard.png"
-import ECOMM from "../public/assets/images/Dashboard.png"
+import dash from "../public/assets/images/dash.png"
 
 import Gym from "../public/assets/images/gym.png"
 import {RxOpenInNewWindow} from "react-icons/rx"
@@ -102,7 +102,7 @@ Responsive Modern website with adaptable UI components For a Gym company. Respon
 			<div className="flex flex-col xl:flex-row gap-6">
 <a href="#" className="w-full xl:w-1/2 h-auto relative group">
 <div>
-<Image src={ECOMM} alt="project1" className="h-full w-full object-contain"/>
+<Image src={dash} alt="project1" className="h-full w-full object-contain"/>
 </div>
 </a>
 <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
